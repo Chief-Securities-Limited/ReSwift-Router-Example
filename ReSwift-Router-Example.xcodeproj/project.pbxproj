@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BAFC2AD2947094B00080BE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAFC2AC2947094B00080BE2 /* AppDelegate.swift */; };
+		1BAFC2AF2947094B00080BE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAFC2AE2947094B00080BE2 /* SceneDelegate.swift */; };
+		1BAFC2B12947094B00080BE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAFC2B02947094B00080BE2 /* ViewController.swift */; };
+		1BAFC2B42947094B00080BE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BAFC2B22947094B00080BE2 /* Main.storyboard */; };
+		1BAFC2B62947094C00080BE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BAFC2B52947094C00080BE2 /* Assets.xcassets */; };
+		1BAFC2B92947094C00080BE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BAFC2B72947094C00080BE2 /* LaunchScreen.storyboard */; };
+		1BAFC2C42947094C00080BE2 /* ReSwift_Router_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAFC2C32947094C00080BE2 /* ReSwift_Router_ExampleTests.swift */; };
+		1BAFC2CE2947094C00080BE2 /* ReSwift_Router_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAFC2CD2947094C00080BE2 /* ReSwift_Router_ExampleUITests.swift */; };
+		1BAFC2D02947094C00080BE2 /* ReSwift_Router_ExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAFC2CF2947094C00080BE2 /* ReSwift_Router_ExampleUITestsLaunchTests.swift */; };
+		1BAFC2E02947097300080BE2 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAFC2DF2947097300080BE2 /* AppState.swift */; };
+		1BAFC2E629470A7700080BE2 /* ReSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1BAFC2E529470A7700080BE2 /* ReSwift */; };
+		1BAFC2E929470A8000080BE2 /* ReSwiftRouter in Frameworks */ = {isa = PBXBuildFile; productRef = 1BAFC2E829470A8000080BE2 /* ReSwiftRouter */; };
+		1BAFC2EB29470A9400080BE2 /* AppRoutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAFC2EA29470A9400080BE2 /* AppRoutable.swift */; };
+		1BAFC2EE29470ACB00080BE2 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAFC2ED29470ACB00080BE2 /* AppReducer.swift */; };
+		1BAFC2F129470C0E00080BE2 /* Screen1ViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAFC2F029470C0E00080BE2 /* Screen1ViewConroller.swift */; };
+		1BAFC2F329470DAD00080BE2 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAFC2F229470DAD00080BE2 /* RootView.swift */; };
+		1BAFC2F62947173000080BE2 /* InitAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAFC2F52947173000080BE2 /* InitAction.swift */; };
+		1BAFC2F82947185B00080BE2 /* Screen1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAFC2F72947185B00080BE2 /* Screen1View.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BAFC2C02947094C00080BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BAFC2A12947094B00080BE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BAFC2A82947094B00080BE2;
+			remoteInfo = "ReSwift-Router-Example";
+		};
+		1BAFC2CA2947094C00080BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BAFC2A12947094B00080BE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BAFC2A82947094B00080BE2;
+			remoteInfo = "ReSwift-Router-Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BAFC2A92947094B00080BE2 /* ReSwift-Router-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReSwift-Router-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BAFC2AC2947094B00080BE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1BAFC2AE2947094B00080BE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1BAFC2B02947094B00080BE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1BAFC2B32947094B00080BE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BAFC2B52947094C00080BE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BAFC2B82947094C00080BE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BAFC2BA2947094C00080BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BAFC2BF2947094C00080BE2 /* ReSwift-Router-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReSwift-Router-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BAFC2C32947094C00080BE2 /* ReSwift_Router_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReSwift_Router_ExampleTests.swift; sourceTree = "<group>"; };
+		1BAFC2C92947094C00080BE2 /* ReSwift-Router-ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReSwift-Router-ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BAFC2CD2947094C00080BE2 /* ReSwift_Router_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReSwift_Router_ExampleUITests.swift; sourceTree = "<group>"; };
+		1BAFC2CF2947094C00080BE2 /* ReSwift_Router_ExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReSwift_Router_ExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1BAFC2DF2947097300080BE2 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		1BAFC2EA29470A9400080BE2 /* AppRoutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRoutable.swift; sourceTree = "<group>"; };
+		1BAFC2ED29470ACB00080BE2 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		1BAFC2F029470C0E00080BE2 /* Screen1ViewConroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen1ViewConroller.swift; sourceTree = "<group>"; };
+		1BAFC2F229470DAD00080BE2 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		1BAFC2F52947173000080BE2 /* InitAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitAction.swift; sourceTree = "<group>"; };
+		1BAFC2F72947185B00080BE2 /* Screen1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen1View.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BAFC2A62947094B00080BE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BAFC2E929470A8000080BE2 /* ReSwiftRouter in Frameworks */,
+				1BAFC2E629470A7700080BE2 /* ReSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BAFC2BC2947094C00080BE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BAFC2C62947094C00080BE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BAFC2A02947094B00080BE2 = {
+			isa = PBXGroup;
+			children = (
+				1BAFC2AB2947094B00080BE2 /* ReSwift-Router-Example */,
+				1BAFC2C22947094C00080BE2 /* ReSwift-Router-ExampleTests */,
+				1BAFC2CC2947094C00080BE2 /* ReSwift-Router-ExampleUITests */,
+				1BAFC2AA2947094B00080BE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BAFC2AA2947094B00080BE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BAFC2A92947094B00080BE2 /* ReSwift-Router-Example.app */,
+				1BAFC2BF2947094C00080BE2 /* ReSwift-Router-ExampleTests.xctest */,
+				1BAFC2C92947094C00080BE2 /* ReSwift-Router-ExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BAFC2AB2947094B00080BE2 /* ReSwift-Router-Example */ = {
+			isa = PBXGroup;
+			children = (
+				1BAFC2DC2947095A00080BE2 /* Redux */,
+				1BAFC2AC2947094B00080BE2 /* AppDelegate.swift */,
+				1BAFC2AE2947094B00080BE2 /* SceneDelegate.swift */,
+				1BAFC2B02947094B00080BE2 /* ViewController.swift */,
+				1BAFC2B22947094B00080BE2 /* Main.storyboard */,
+				1BAFC2B52947094C00080BE2 /* Assets.xcassets */,
+				1BAFC2B72947094C00080BE2 /* LaunchScreen.storyboard */,
+				1BAFC2BA2947094C00080BE2 /* Info.plist */,
+			);
+			path = "ReSwift-Router-Example";
+			sourceTree = "<group>";
+		};
+		1BAFC2C22947094C00080BE2 /* ReSwift-Router-ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BAFC2C32947094C00080BE2 /* ReSwift_Router_ExampleTests.swift */,
+			);
+			path = "ReSwift-Router-ExampleTests";
+			sourceTree = "<group>";
+		};
+		1BAFC2CC2947094C00080BE2 /* ReSwift-Router-ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1BAFC2CD2947094C00080BE2 /* ReSwift_Router_ExampleUITests.swift */,
+				1BAFC2CF2947094C00080BE2 /* ReSwift_Router_ExampleUITestsLaunchTests.swift */,
+			);
+			path = "ReSwift-Router-ExampleUITests";
+			sourceTree = "<group>";
+		};
+		1BAFC2DC2947095A00080BE2 /* Redux */ = {
+			isa = PBXGroup;
+			children = (
+				1BAFC2F42947171F00080BE2 /* Action */,
+				1BAFC2EC29470ABC00080BE2 /* Reducer */,
+				1BAFC2DD2947096000080BE2 /* Router */,
+				1BAFC2DE2947096500080BE2 /* State */,
+				1BAFC2EF29470C0700080BE2 /* View */,
+			);
+			path = Redux;
+			sourceTree = "<group>";
+		};
+		1BAFC2DD2947096000080BE2 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				1BAFC2EA29470A9400080BE2 /* AppRoutable.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1BAFC2DE2947096500080BE2 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				1BAFC2DF2947097300080BE2 /* AppState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		1BAFC2EC29470ABC00080BE2 /* Reducer */ = {
+			isa = PBXGroup;
+			children = (
+				1BAFC2ED29470ACB00080BE2 /* AppReducer.swift */,
+			);
+			path = Reducer;
+			sourceTree = "<group>";
+		};
+		1BAFC2EF29470C0700080BE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BAFC2F029470C0E00080BE2 /* Screen1ViewConroller.swift */,
+				1BAFC2F229470DAD00080BE2 /* RootView.swift */,
+				1BAFC2F72947185B00080BE2 /* Screen1View.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BAFC2F42947171F00080BE2 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				1BAFC2F52947173000080BE2 /* InitAction.swift */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BAFC2A82947094B00080BE2 /* ReSwift-Router-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BAFC2D32947094C00080BE2 /* Build configuration list for PBXNativeTarget "ReSwift-Router-Example" */;
+			buildPhases = (
+				1BAFC2A52947094B00080BE2 /* Sources */,
+				1BAFC2A62947094B00080BE2 /* Frameworks */,
+				1BAFC2A72947094B00080BE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReSwift-Router-Example";
+			packageProductDependencies = (
+				1BAFC2E529470A7700080BE2 /* ReSwift */,
+				1BAFC2E829470A8000080BE2 /* ReSwiftRouter */,
+			);
+			productName = "ReSwift-Router-Example";
+			productReference = 1BAFC2A92947094B00080BE2 /* ReSwift-Router-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BAFC2BE2947094C00080BE2 /* ReSwift-Router-ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BAFC2D62947094C00080BE2 /* Build configuration list for PBXNativeTarget "ReSwift-Router-ExampleTests" */;
+			buildPhases = (
+				1BAFC2BB2947094C00080BE2 /* Sources */,
+				1BAFC2BC2947094C00080BE2 /* Frameworks */,
+				1BAFC2BD2947094C00080BE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BAFC2C12947094C00080BE2 /* PBXTargetDependency */,
+			);
+			name = "ReSwift-Router-ExampleTests";
+			productName = "ReSwift-Router-ExampleTests";
+			productReference = 1BAFC2BF2947094C00080BE2 /* ReSwift-Router-ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1BAFC2C82947094C00080BE2 /* ReSwift-Router-ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BAFC2D92947094C00080BE2 /* Build configuration list for PBXNativeTarget "ReSwift-Router-ExampleUITests" */;
+			buildPhases = (
+				1BAFC2C52947094C00080BE2 /* Sources */,
+				1BAFC2C62947094C00080BE2 /* Frameworks */,
+				1BAFC2C72947094C00080BE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BAFC2CB2947094C00080BE2 /* PBXTargetDependency */,
+			);
+			name = "ReSwift-Router-ExampleUITests";
+			productName = "ReSwift-Router-ExampleUITests";
+			productReference = 1BAFC2C92947094C00080BE2 /* ReSwift-Router-ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BAFC2A12947094B00080BE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					1BAFC2A82947094B00080BE2 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					1BAFC2BE2947094C00080BE2 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 1BAFC2A82947094B00080BE2;
+					};
+					1BAFC2C82947094C00080BE2 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 1BAFC2A82947094B00080BE2;
+					};
+				};
+			};
+			buildConfigurationList = 1BAFC2A42947094B00080BE2 /* Build configuration list for PBXProject "ReSwift-Router-Example" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BAFC2A02947094B00080BE2;
+			packageReferences = (
+				1BAFC2E429470A7700080BE2 /* XCRemoteSwiftPackageReference "ReSwift" */,
+				1BAFC2E729470A8000080BE2 /* XCRemoteSwiftPackageReference "ReSwift-Router" */,
+			);
+			productRefGroup = 1BAFC2AA2947094B00080BE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BAFC2A82947094B00080BE2 /* ReSwift-Router-Example */,
+				1BAFC2BE2947094C00080BE2 /* ReSwift-Router-ExampleTests */,
+				1BAFC2C82947094C00080BE2 /* ReSwift-Router-ExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BAFC2A72947094B00080BE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BAFC2B92947094C00080BE2 /* LaunchScreen.storyboard in Resources */,
+				1BAFC2B62947094C00080BE2 /* Assets.xcassets in Resources */,
+				1BAFC2B42947094B00080BE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BAFC2BD2947094C00080BE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BAFC2C72947094C00080BE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BAFC2A52947094B00080BE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BAFC2F329470DAD00080BE2 /* RootView.swift in Sources */,
+				1BAFC2EE29470ACB00080BE2 /* AppReducer.swift in Sources */,
+				1BAFC2B12947094B00080BE2 /* ViewController.swift in Sources */,
+				1BAFC2EB29470A9400080BE2 /* AppRoutable.swift in Sources */,
+				1BAFC2AD2947094B00080BE2 /* AppDelegate.swift in Sources */,
+				1BAFC2F129470C0E00080BE2 /* Screen1ViewConroller.swift in Sources */,
+				1BAFC2AF2947094B00080BE2 /* SceneDelegate.swift in Sources */,
+				1BAFC2E02947097300080BE2 /* AppState.swift in Sources */,
+				1BAFC2F82947185B00080BE2 /* Screen1View.swift in Sources */,
+				1BAFC2F62947173000080BE2 /* InitAction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BAFC2BB2947094C00080BE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BAFC2C42947094C00080BE2 /* ReSwift_Router_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BAFC2C52947094C00080BE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BAFC2CE2947094C00080BE2 /* ReSwift_Router_ExampleUITests.swift in Sources */,
+				1BAFC2D02947094C00080BE2 /* ReSwift_Router_ExampleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BAFC2C12947094C00080BE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BAFC2A82947094B00080BE2 /* ReSwift-Router-Example */;
+			targetProxy = 1BAFC2C02947094C00080BE2 /* PBXContainerItemProxy */;
+		};
+		1BAFC2CB2947094C00080BE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BAFC2A82947094B00080BE2 /* ReSwift-Router-Example */;
+			targetProxy = 1BAFC2CA2947094C00080BE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1BAFC2B22947094B00080BE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BAFC2B32947094B00080BE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1BAFC2B72947094C00080BE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BAFC2B82947094C00080BE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BAFC2D12947094C00080BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1BAFC2D22947094C00080BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BAFC2D42947094C00080BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CWZ27838R7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ReSwift-Router-Example/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hk.com.chiefgroup.ReSwift-Router-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1BAFC2D52947094C00080BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CWZ27838R7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ReSwift-Router-Example/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hk.com.chiefgroup.ReSwift-Router-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1BAFC2D72947094C00080BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CWZ27838R7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hk.com.chiefgroup.ReSwift-Router-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReSwift-Router-Example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReSwift-Router-Example";
+			};
+			name = Debug;
+		};
+		1BAFC2D82947094C00080BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CWZ27838R7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hk.com.chiefgroup.ReSwift-Router-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReSwift-Router-Example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReSwift-Router-Example";
+			};
+			name = Release;
+		};
+		1BAFC2DA2947094C00080BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CWZ27838R7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hk.com.chiefgroup.ReSwift-Router-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ReSwift-Router-Example";
+			};
+			name = Debug;
+		};
+		1BAFC2DB2947094C00080BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CWZ27838R7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hk.com.chiefgroup.ReSwift-Router-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ReSwift-Router-Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BAFC2A42947094B00080BE2 /* Build configuration list for PBXProject "ReSwift-Router-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BAFC2D12947094C00080BE2 /* Debug */,
+				1BAFC2D22947094C00080BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BAFC2D32947094C00080BE2 /* Build configuration list for PBXNativeTarget "ReSwift-Router-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BAFC2D42947094C00080BE2 /* Debug */,
+				1BAFC2D52947094C00080BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BAFC2D62947094C00080BE2 /* Build configuration list for PBXNativeTarget "ReSwift-Router-ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BAFC2D72947094C00080BE2 /* Debug */,
+				1BAFC2D82947094C00080BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BAFC2D92947094C00080BE2 /* Build configuration list for PBXNativeTarget "ReSwift-Router-ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BAFC2DA2947094C00080BE2 /* Debug */,
+				1BAFC2DB2947094C00080BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1BAFC2E429470A7700080BE2 /* XCRemoteSwiftPackageReference "ReSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReSwift/ReSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		1BAFC2E729470A8000080BE2 /* XCRemoteSwiftPackageReference "ReSwift-Router" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReSwift/ReSwift-Router";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1BAFC2E529470A7700080BE2 /* ReSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1BAFC2E429470A7700080BE2 /* XCRemoteSwiftPackageReference "ReSwift" */;
+			productName = ReSwift;
+		};
+		1BAFC2E829470A8000080BE2 /* ReSwiftRouter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1BAFC2E729470A8000080BE2 /* XCRemoteSwiftPackageReference "ReSwift-Router" */;
+			productName = ReSwiftRouter;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1BAFC2A12947094B00080BE2 /* Project object */;
+}
